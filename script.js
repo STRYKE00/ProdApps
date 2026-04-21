@@ -1,16 +1,7 @@
 // =========================================
 // 0. FIREBASE INITIALIZATION
 // =========================================
-// TODO: Replace with your Firebase project config from Firebase Console > Project Settings > Web App
-const firebaseConfig = {
-  apiKey: "AIzaSyAb8bnSBJf2GWr--MyCyjyEFrHXT1CRD4k",
-  authDomain: "minerva-b0f7a.firebaseapp.com",
-  projectId: "minerva-b0f7a",
-  storageBucket: "minerva-b0f7a.firebasestorage.app",
-  messagingSenderId: "1041398854247",
-  appId: "1:1041398854247:web:381f9090c7e27af4eb9ac2"
-};
-
+// firebaseConfig is loaded from firebase-config.js (gitignored)
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 const db = firebase.firestore();
